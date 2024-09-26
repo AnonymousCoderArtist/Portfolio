@@ -1,0 +1,249 @@
+:root {
+  /*------Color variables------*/
+  --amber_a200: #ffc73c;
+  --black_900: #000000;
+  --blue_gray_100: #d9d9d9;
+  --gray_900: #1d1e20;
+  --orange_50: #fcf8db;
+  --red_400: #c65c5c;
+  --white_a700: #ffffff;
+  --yellow_400: #ffee54;
+  --yellow_a400: #ffe918;
+
+  /*------Border radius variables------*/
+  --radius-xs: 18px;
+  --radius-sm: 88px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: elevator, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+[type="text"],
+input:where(:not([type])),
+[type="email"],
+[type="url"],
+[type="password"],
+[type="number"],
+[type="date"],
+[type="datetime-local"],
+[type="month"],
+[type="search"],
+[type="tel"],
+[type="time"],
+[type="week"],
+[multiple],
+textarea,
+select,
+button {
+  appearance: none;
+  background-color: transparent;
+  border-color: unset;
+  border-width: 0;
+  border-radius: unset;
+  padding: unset;
+  font-size: unset;
+  line-height: unset;
+  color: inherit;
+}
+
+input:focus-visible,
+[multiple]:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+}
+
+.section__content {
+  position: relative;
+  width: 30%;
+  align-content: center;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+}
+
+.section__features {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section__features-item {
+  margin-left: 16px;
+  margin-right: 16px;
+  z-index: 7;
+  position: relative;
+  display: flex;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.section__features-description {
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__text {
+  color: var(--black_900) !important;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 400;
+  text-shadow: 0px 4px 24px #ffee54;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.section__subtext {
+  color: var(--black_900) !important;
+  margin-top: -38px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+  text-shadow: 0px 4px 24px #ffee54;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.section__features-image {
+  height: 144px;
+  margin-left: -32px;
+  align-self: center;
+  position: relative;
+  width: 64%;
+  object-fit: contain;
+}
+
+.section__image {
+  height: 448px;
+  margin-top: -142px;
+  position: relative;
+  width: 84%;
+  object-fit: contain;
+}
+
+.section__profile {
+  z-index: 8;
+  position: absolute;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  bottom: 6px;
+  right: 0px;
+  left: 0px;
+  margin: auto 10px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.section__profile-background {
+  height: 316px;
+  width: 82%;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}
+
+.section__profile-avatar {
+  height: 88px;
+  margin-top: -62px;
+  margin-left: 108px;
+  position: relative;
+  width: 34%;
+  object-fit: contain;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.section__footer-image {
+  height: 12px;
+  z-index: 9;
+  position: absolute;
+  right: 30%;
+  top: 11%;
+  margin: auto;
+}
+
+/*-------------------------------------
+      2. Page CSS
+  --------------------------------------*/
+/*=========== TABLE OF CONTENTS ===========
+1. Text CSS
+==========================================*/
+
+/*-------------------------------------
+    1. Text CSS
+--------------------------------------*/
+.ui.text.size-textxs {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ui.text.size-texts {
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 1050px) {
+    font-size: 28px;
+  }
+}
+
+.ui.text.size-textmd {
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 550px) {
+    font-size: 26px;
+  }
+}
+
+.ui.text.size-textlg {
+  font-size: 117px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 1050px) {
+    font-size: 48px;
+  }
+}
+
+.ui.text {
+  color: var(--black_900);
+}
