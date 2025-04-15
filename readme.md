@@ -1,7 +1,7 @@
-<!-- ❗❗ REPLACE THIS WITH YOUR ACTUAL IMAGE URL ❗❗ -->
+
 # ✨ Anonymous Coder's Portfolio - Welcome to my world. ✨
 <p align="center">
-  <img src="YOUR_BANNER_OR_SCREENSHOT_URL_HERE" alt="Portfolio Website Preview" width="80%">
+  <img src="https://github.com/AnonymousCoderArtist/Portfolio/blob/main/portfolio.png" alt="Portfolio Website Preview" width="80%">
 </p>
 
 
@@ -14,7 +14,7 @@ Hey there, fellow code explorer! 👋 Welcome to the repository for my personal 
 
 **(It's highly recommended to add a GIF screencast of your website in action here! It makes the README much more engaging!)**
 
-![Portfolio Preview GIF](YOUR_GIF_URL_HERE) <!-- <<< ❗❗ ADD A LINK TO A SCREENCAST GIF ❗❗ -->
+![Portfolio Preview GIF](https://github.com/AnonymousCoderArtist/Portfolio/blob/main/portfolio.png) 
 
 ## 🔥 Features That Pack a Punch! 🔥
 
@@ -52,13 +52,12 @@ Want to run this project on your local machine? Easy peasy!
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+    git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/AnonymousCoderArtist/Portfolio.git
     ```
-    *(Replace `YOUR_USERNAME/YOUR_REPO_NAME` with your actual GitHub details)*
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd YOUR_REPO_NAME
+    cd Portfolio
     ```
 
 3.  **Open `index.html` in your browser:**
@@ -94,7 +93,6 @@ Liked the portfolio? Have questions or suggestions? Feel free to reach out!
 
 *   **GitHub:** [AnonymousCoderArtist](https://github.com/AnonymousCoderArtist)
 *   **Telegram:** [@ANONYMOUS_56788](https://t.me/ANONYMOUS_56788)
-*   **Email:** (Optional: Add your email here if you want)
 
 ---
 
