@@ -10,12 +10,6 @@ Hey there, fellow code explorer! 👋 Welcome to the repository for my personal 
 
  Dive in, explore the code, get inspired, or just see how I made that cool effect you liked! 😎
 
-## 🎬 Quick Peek (Add a GIF Here!)
-
-**(It's highly recommended to add a GIF screencast of your website in action here! It makes the README much more engaging!)**
-
-![Portfolio Preview GIF](https://github.com/AnonymousCoderArtist/Portfolio/blob/main/portfolio.png) 
-
 ## 🔥 Features That Pack a Punch! 🔥
 
 *   🎨 **100% Custom Built:** Designed, coded, and animated entirely from scratch. No templates here!
